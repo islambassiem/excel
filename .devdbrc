@@ -1,0 +1,6 @@
+[
+  {
+    "type": "sqlite",
+    "path": "/Users/islam/Documents/laravel/excel/database/database.sqlite"
+  }
+]

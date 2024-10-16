@@ -12,7 +12,7 @@
     <div class="w-screen h-screen bg-gray-200 flex justify-center items-center">
         <div
             class="block w-[80%] md:w-[60%] lg:w-[40%] p-6 bg-white border border-gray-200 rounded-lg shadow hover:bg-gray-100 dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-gray-700 ">
-            <h1 class="text-white mb-7 text-lg font-bold text-center underline ">Register your email to receive the practice files</h1>
+            <h1 class="mb-7 text-lg font-bold text-center underline ">Register your email to receive the practice files</h1>
             <form class="mx-auto" method="post" action="{{ route('add') }}">
                 @csrf
                 @error('email')
@@ -69,7 +69,7 @@
                     <input type="email" id="email" name="email"
                         class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
                         placeholder="Enter Your Email Here" required />
-                    <p class="text-white italic mb-3 text-sm mt-1">
+                    <p class="italic mb-3 text-sm mt-1">
                         Or send an email to <code>islambassiem@gmail.com</code>
                     </p>
                 </div>
